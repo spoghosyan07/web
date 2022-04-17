@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.collapse > ul{
+
+    margin-left: auto;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+   background-image: linear-gradient( to right,  #aa2999, #4b0052  ) ;
+   padding: 0;
+}
+.navbar-brand  img{
+   width: 70px;
+   border: #a517ba;
+   border-radius: 25px;
+   margin: 5px;
+   padding-left: 5px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 500;
+    float:right;
+    text-align:left;
+}
+.navbar-toggler{
+    outline: non !important;
+}
+/**********************************************banner secton ***************************************/
+#banner{
+    background-image: linear-gradient( to right, #aa2999, #4b0052 );
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 500;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+#banner svg{
+    margin-bottom: 15px;
+}
+.services-img{
+    width: 250px;
+    height: auto;
+    /* margin-right: 95%; */
+    border-radius: 50px;
+    /* margin-right: auto; */
+    margin: 5px;
+}
+#services  .container  img{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.title::after{
+    content: '';
+    background:#4b0052 ;
+    height: 5px;
+    width: 200px ;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(18px)
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px ;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin: 10px;
+    background-image: linear-gradient( to right, #aa2999, #4b0052 );
+    margin-top: 15 px;
+}
+
+/*********************** about-us  section*************************/
+#about-us{
+    background: #f8f9fa; 
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 10px;
+   
+    
+}
+.choose{
+    margin-left: 12px;
+    display: grid;
+    
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.allus{
+  display: grid;
+
+}
+/* .img-fluid{
+   margin-left: 60px;
+} */
+.daj{
+    grid-area: 1/2 2/-1;
+}
+.diifferent{
+   float: right;
+  } 
+  }
+  .dif{
+      float: left;
+      margin-left: 50px;
+  }
+  #dif{
+      float: left;
+      margin-left: 30px;
+  }
+  #about-us ul li {
+      margin-left: 35px;
+      margin-top: 15px;
+  }
+  #about-us ul{
+      margin-left: 20px;
+  }
+  /*********************** TESTIMNOAIALS section *************************/
+#testimonials{
+   margin: 100px 0 ;
+}
+.testimonials{
+    border-left: 5px solid #4b0052;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.inline-block{
+    display: inline-block;
+    font-size: 12px;
+}
+           
+/* <!--------======------ Social Media section --------====---------------> */
+#social-medi{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+#social-medi p {
+    font-size:36px ;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 45%;
+}
+.social-icons   a:hover img {
+    transform: translateY(-10px);
+}
+/****************************************  Footer section  **********/
+#footer{
+    background-image: linear-gradient( to right, #aa2999, #4b0052 );
+    color:#fff;
+}
+#footer img{
+    width: 100%;
+    
+}
+.footer-img{
+    width: 100%;
+    background-image: linear-gradient( to right, #aa2999, #4b0052 );
+   
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+#fff{
+    margin-top: 85px;
+  border-left:4px solid #fff;
+  border-radius: 15px;
+
+}
+#fff p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer-box svg{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient( to right, #aa2999, #4b0052 );
+
+
+}
+#ffff{
+    margin-top: 90px;
+    border-left: 4px solid #fff;
+    border-radius: 15px;
+}
+#ff{
+    border-left:4px solid #fff;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 20px;
+     
+  
+}
